@@ -1,0 +1,27 @@
+:root {
+  --neutral-900: rgba(17, 24, 39, 1);
+  --neutral-700: rgba(55, 65, 81, 1);
+  --display-lg-semibold-font-family: "Inter", Helvetica;
+  --display-lg-semibold-font-weight: 600;
+  --display-lg-semibold-font-size: 48px;
+  --display-lg-semibold-letter-spacing: -1.2px;
+  --display-lg-semibold-line-height: 60px;
+  --display-lg-semibold-font-style: normal;
+  --body-md-regular-font-family: "Inter", Helvetica;
+  --body-md-regular-font-weight: 400;
+  --body-md-regular-font-size: 16px;
+  --body-md-regular-letter-spacing: 0px;
+  --body-md-regular-line-height: 28px;
+  --body-md-regular-font-style: normal;
+  --display-xs-semibold-font-family: "Inter", Helvetica;
+  --display-xs-semibold-font-weight: 600;
+  --display-xs-semibold-font-size: 24px;
+  --display-xs-semibold-letter-spacing: -0.24px;
+  --display-xs-semibold-line-height: 32px;
+  --display-xs-semibold-font-style: normal;
+  --collection-1-background: rgba(249, 241, 240, 1);
+  --collection-1-primary: rgba(250, 220, 217, 1);
+  --collection-1-secondary: rgba(248, 175, 166, 1);
+  --collection-1-text: rgba(0, 0, 0, 1);
+  --collection-1-rounded: 20px;
+}

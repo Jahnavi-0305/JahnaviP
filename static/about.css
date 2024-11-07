@@ -1,0 +1,380 @@
+.about {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1080px;
+  position: relative;
+}
+
+.about .overlap {
+  position: absolute;
+  width: 1369px;
+  height: 879px;
+  top: 150px;
+  left: 49px;
+}
+
+.about .overlap-group {
+  position: absolute;
+  width: 1369px;
+  height: 879px;
+  top: 0;
+  left: 0;
+}
+
+.about .rectangle {
+  position: absolute;
+  width: 748px;
+  height: 360px;
+  top: 160px;
+  left: 614px;
+}
+
+.about .group {
+  position: absolute;
+  width: 1264px;
+  height: 500px;
+  top: 0;
+  left: 28px;
+}
+
+.about .overlap-group-wrapper {
+  width: 1268px;
+  height: 500px;
+}
+
+.about .overlap-group-2 {
+  position: relative;
+  width: 1265px;
+  height: 501px;
+  top: -1px;
+  left: -1px;
+}
+
+.about .hi-i-m-jahnavi {
+  position: absolute;
+  width: 806px;
+  top: 0;
+  left: 0;
+  -webkit-text-stroke: 1px #f9f1f0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #7369e5;
+  font-size: 90px;
+  letter-spacing: 0;
+  line-height: normal;
+  border-color: var(--collection-1-background);
+}
+
+.about .text-wrapper {
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #7369e5;
+  font-size: 90px;
+  letter-spacing: 0;
+}
+
+.about .span {
+  font-size: 96px;
+}
+
+.about .i-am-a-master-s {
+  position: absolute;
+  width: 613px;
+  top: 189px;
+  left: 652px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #443748;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .IMG {
+    position: absolute;
+    width: 580px;
+    height: 709px;
+    top: 160px;
+    left: 0;
+    border-radius: 20px; 
+    object-fit: cover;
+    object-position: center;
+}
+
+.about .FLOWER-ICON {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 100px;
+  left: 1250px;
+}
+
+.about .SOCIALS {
+  position: absolute;
+  width: 451px;
+  height: 101px;
+  top: 769px;
+  left: 911px;
+  background-color: #d8d7fa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .LINKS {
+  display: flex;
+  width: 334px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 42px;
+  left: 59px;
+}
+
+.about .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.about .ABOUT {
+  position: absolute;
+  width: 451px;
+  height: 208px;
+  top: 541px;
+  left: 911px;
+  background-color: #d8d7fa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .CIRCLE-ICON {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 25px;
+  left: 23px;
+}
+
+.about .frame {
+  position: absolute;
+  width: 180px;
+  height: 35px;
+  top: 148px;
+  left: 31px;
+  background-color: #9b93f7;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .text-wrapper-3 {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .div-wrapper {
+  position: absolute;
+  width: 180px;
+  height: 35px;
+  top: 148px;
+  left: 235px;
+  background-color: #9b93f7;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .text-wrapper-4 {
+  position: absolute;
+  top: 7px;
+  left: 23px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .here-is-my-resume {
+  position: absolute;
+  width: 306px;
+  top: 79px;
+  left: 42px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .text-wrapper-5 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.about .text-wrapper-6 {
+  font-weight: 600;
+}
+
+.about .overlap-2 {
+  position: absolute;
+  width: 277px;
+  height: 335px;
+  top: 535px;
+  left: 614px;
+  background-image: url(https://c.animaapp.com/WZsCos1o/img/rectangle-6.svg);
+  background-size: 100% 100%;
+}
+
+.about .text-wrapper-7 {
+  position: absolute;
+  width: 161px;
+  top: 289px;
+  left: 0;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .text-wrapper-8 {
+  position: absolute;
+  top: 22px;
+  left: 15px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .arrow {
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  top: 25px;
+  left: 230px;
+}
+
+.about .HEADER {
+  position: absolute;
+  width: 1392px;
+  height: 101px;
+  top: 49px;
+  left: 25px;
+  background-color: #d8d7fa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .NAV {
+  display: flex;
+  width: 1343px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+  left: 24px;
+}
+
+.about .LOGO {
+  position: relative;
+  width: fit-content;
+  font-family: "Gill Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .frame-2 {
+  display: flex;
+  width: 303px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.about .text-wrapper-9 {
+  position: relative;
+  width: 72px;
+  height: 20px;
+  margin-top: -1px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-10 {
+  position: relative;
+  width: 54px;
+  height: 20px;
+  margin-top: -1px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-11 {
+  position: relative;
+  width: 79px;
+  height: 20px;
+  margin-top: -1px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+b {
+  font-weight: bolder;
+}
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./static/contactmeglobals.css" />
+    <link rel="stylesheet" href="./static/contactmestyleguide.css" />
+    <link rel="stylesheet" href="./static/contactme.css" />
+  </head>
+  <body>
+    <script>
+      document.getElementById("contactForm").addEventListener("submit", function (event) {
+        event.preventDefault(); // Prevent default form submission
+        const form = event.target;
+
+        // Submit the form to Formspree
+        fetch(form.action, {
+          method: form.method,
+          body: new FormData(form),
+          headers: { Accept: "application/json" },
+        })
+          .then((response) => {
+            if (response.ok) {
+              // Redirect to thank you page on success
+              window.location.href = "/thankyou";
+            } else {
+              alert("Oops! There was a problem submitting your form.");
+            }
+          })
+          .catch((error) => {
+            alert("Oops! There was a problem submitting your form.");
+          });
+      });
+    </script>
+    <form action="https://formspree.io/f/xpwzqgew" method="POST"> 
+      <div class="contact">
+        <div class="div">
+          <div class="overlap-group">
+            <div class="frame">
+              <div class="SLOGAN-INTRO">
+                <div class="frame-2">
+                  <div class="input-field">
+                    <div class="div-2">
+                      <div class="div-2">
+                        <div class="input-with-label"><div class="text-wrapper">Your Name</div></div>
+                        <div class="input">
+                          <div class="content">
+                            <input class="text" placeholder="Type your name" type="text" name="name" id="name" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-field">
+                    <div class="div-2">
+                      <div class="div-2">
+                        <div class="input-with-label"><div class="text-wrapper">Your Email</div></div>
+                        <div class="input">
+                          <div class="content-2">
+                            <img class="mail" src="https://c.animaapp.com/qkj1Q1JJ/img/mail.svg" />
+                            <input class="text" placeholder="Type your email address" name="email" id="email" type="email" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="input-field">
+                    <div class="div-2">
+                      <div class="input-with-label"><div class="text-wrapper">Your message</div></div>
+                      <div class="textarea-input-field">
+                        <div class="div-3">
+                          <div class="div-3">
+                            <div class="div-wrapper">
+                              <input class="text" placeholder="Type your message" type="text" name="message" type="message" id="message"/>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <button class="button" type="submit">
+                    <div class="button-base">
+                      <div class="text-2">Let’s Go!!!</div>
+                    </div>
+                  </button>             
+              </div>
+            </div>
+            
+          </div>
+          <header class="HEADER">
+            <div class="div-4">
+              <div class="LOGO">
+                <a href="./home.html" title="">JAHNAVI KANUKUNTLA</a>
+              </div>
+              <div class="frame-3">
+                <div class="text-wrapper-2">
+                  <a href="./project.html" title="">PROJECTS</a>
+                </div>
+                <div class="text-wrapper-3">
+                  <a href="./aboutme.html" title="">ABOUT</a>
+                </div>
+                <div class="text-wrapper-4">
+                  <a href="./contact.html" title="">CONTACT</a>
+                </div>
+              </div>
+            </div>
+          </header>
+          <p class="let-s-discuss-on">Let’s discuss <br />on something cool together :)</p>
+          <p class="got-a-question-or">Got a question or proposal, or just want<br />to say hello? Go ahead.</p>
+          <div class="CONTACT">
+            <div class="text-wrapper-5">Say Hello at</div>
+            <p class="gmail">jkanuku0305@gmail.com</p>
+            <div class="frame-4">
+              <p class="text-wrapper-6">All rights and wrongs reserved @jahnavik2024</p>
+              <img class="vector" src="https://c.animaapp.com/qkj1Q1JJ/img/vector-1.svg" />
+              <div class="div-4">
+                <a
+                  href="https://www.linkedin.com/in/jahnavi-kanukuntla-30a954216/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  ><div class="div-5">LINKEDIN</div></a
+                >
+                <div class="text-wrapper-7">|</div>
+                <a href="https://github.com/Jahnavi-0305" target="_blank" rel="noopener noreferrer"
+                  ><div class="div-5">GITHUB</div></a
+                >
+                <div class="text-wrapper-7">|</div>
+                <p class="div-5">
+                  <a href="mailto:jkanuku0305@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer">
+                  <span class="span">EMAIL</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+   </form>
+  </body>
+</html>
