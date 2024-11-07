@@ -1,26 +1,7 @@
-/* styles for tablet devices */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    font-size: 14px;
-    width: 90%;
-    margin: auto;
-  }
-}
-
-/* styles for mobile devices */
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 12px;
-    width: 100%;
-    margin: 0;
-  }
-}
-
 .projects {
-  display: flex;
   flex-direction: column;
   height: 2379px;
-  align-items: flex-start;
+  align-items: center;
   gap: 62px;
   padding: 24px;
   position: relative;
@@ -28,12 +9,10 @@
 }
 
 .projects .HEADER {
-  position: relative;
   width: 1392px;
-  height: 101px;
+  height: 100px;
   background-color: #d8d7fa;
-  border-radius: 20px;
-  overflow: hidden;
+  border-radius: 30px;
 }
 
 .projects .NAV {
@@ -113,7 +92,7 @@
   align-items: flex-start;
   gap: 48px;
   position: relative;
-  align-self: stretch;
+  align-self: flex-start;
   width: 100%;
   flex: 0 0 auto;
 }
@@ -152,14 +131,15 @@
   line-height: 31.2px;
 }
 
-.projects .container {
+.container {
   display: flex;
   align-items: flex-start;
   gap: 32px;
-  position: relative;
+  position: center;
   align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
+  width: 1350px;
+  flex: 1 1 auto;
+  height:auto;
 }
 
 .projects .col {
