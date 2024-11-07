@@ -1,0 +1,14 @@
+:root {
+  --neutral-900: rgba(17, 24, 39, 1);
+  --display-lg-semibold-font-family: "Inter", Helvetica;
+  --display-lg-semibold-font-weight: 600;
+  --display-lg-semibold-font-size: 48px;
+  --display-lg-semibold-letter-spacing: -1.2px;
+  --display-lg-semibold-line-height: 60px;
+  --display-lg-semibold-font-style: normal;
+  --collection-1-background: rgba(249, 241, 240, 1);
+  --collection-1-primary: rgba(250, 220, 217, 1);
+  --collection-1-secondary: rgba(248, 175, 166, 1);
+  --collection-1-text: rgba(0, 0, 0, 1);
+  --collection-1-rounded: 20px;
+}

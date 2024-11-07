@@ -1,0 +1,487 @@
+/* styles for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* styles for mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 12px;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.about {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.about .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1080px;
+  position: relative;
+}
+
+.about .overlap {
+  position: absolute;
+  width: 1391px;
+  height: 889px;
+  top: 170px;
+  left: 49px;
+}
+
+.about .overlap-group {
+  position: absolute;
+  width: 910px;
+  height: 889px;
+  top: 0;
+  left: 481px;
+}
+
+.about .overlap-group-2 {
+  position: absolute;
+  width: 572px;
+  height: 885px;
+  top: 0;
+  left: 338px;
+}
+
+.about .IMG {
+  position: absolute;
+  width: 497px;
+  height: 852px;
+  top: 33px;
+  left: 52px;
+  border-radius: 20px; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.about .FLOWER-ICON {
+  position: absolute;
+  width: 119px;
+  height: 119px;
+  top: 710px;
+  left: 453px;
+}
+
+.about .vector {
+  width: 133px;
+  height: 133px;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.about .CONTACT {
+  width: 372px;
+  height: 335px;
+  top: 554px;
+  left: 0;
+  background-color: #9b92f6;
+  position: absolute;
+  border-radius: var(--collection-1-rounded);
+  overflow: hidden;
+}
+
+.about .text-wrapper {
+  position: absolute;
+  width: 295px;
+  top: 29px;
+  left: 30px;
+  font-family: "Gill Sans-Light", Helvetica;
+  font-weight: 300;
+  color: var(--collection-1-text);
+  font-size: 26px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .p {
+  position: absolute;
+  width: 312px;
+  top: 205px;
+  left: 30px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 29px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .frame {
+  display: flex;
+  flex-direction: column;
+  width: 777px;
+  align-items: flex-start;
+  gap: 37px;
+  position: absolute;
+  top: 168px;
+  left: 0;
+}
+
+.about .i-am-jahnavi-a {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #443748;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .span {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #443748;
+  font-size: 20px;
+  letter-spacing: 0;
+}
+
+.about .text-wrapper-2 {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.about .text-wrapper-3 {
+  font-weight: 700;
+}
+
+.about .div-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #443748;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .ABOUT {
+  position: absolute;
+  width: 451px;
+  height: 208px;
+  top: 724px;
+  left: 49px;
+  background-color: #d8d7fa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .text-wrapper-4 {
+  position: absolute;
+  width: 336px;
+  top: 36px;
+  left: 23px;
+  font-family: "Gill Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--collection-1-text);
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .frame-2 {
+  display: flex;
+  width: 405px;
+  align-items: center;
+  gap: 11px;
+  position: absolute;
+  top: 111px;
+  left: 23px;
+}
+
+.about .button {
+  all: unset;
+  box-sizing: border-box;
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 8px;
+}
+
+.about .button-base {
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 28px;
+  background-color: var(--brand-600);
+  overflow: hidden;
+  border: 1px solid;
+  box-shadow: var(--shadow-xs);
+  display: flex;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  border-radius: 8px;
+  border-color: var(--brand-600);
+}
+
+.about .text {
+  font-family: "Gill Sans-Regular", Helvetica;
+  color: var(--white);
+  font-size: 18px;
+  line-height: 28px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about .div-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 16px 28px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  background-color: var(--brand-50);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid;
+  box-shadow: var(--shadow-xs);
+  border-color: var(--brand-50);
+}
+
+.about .text-2 {
+  margin-left: -3.50px;
+  margin-right: -3.50px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  color: var(--brand-700);
+  font-size: 18px;
+  line-height: 28px;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about .img {
+  width: 92px;
+  height: 75px;
+  left: 359px;
+  position: absolute;
+  top: 0;
+}
+
+.about .HEADER {
+  position: absolute;
+  width: 1392px;
+  height: 101px;
+  top: 49px;
+  left: 25px;
+  background-color: #d8d7fa;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.about .NAV {
+  display: flex;
+  width: 1343px;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 30px;
+  left: 24px;
+}
+
+.about .LOGO {
+  position: relative;
+  width: fit-content;
+  font-family: "Gill Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--collection-1-text);
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .frame-3 {
+  display: flex;
+  width: 303px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  position: relative;
+}
+
+.about .text-wrapper-5 {
+  position: relative;
+  width: 72px;
+  height: 20px;
+  margin-top: -1.00px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-6 {
+  position: relative;
+  width: 54px;
+  height: 20px;
+  margin-top: -1.00px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-7 {
+  position: relative;
+  width: 79px;
+  height: 20px;
+  margin-top: -1.00px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-8 {
+  position: absolute;
+  top: 202px;
+  left: 49px;
+  font-family: "Gill Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--collection-1-text);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-9 {
+  position: absolute;
+  top: 255px;
+  left: 49px;
+  font-family: "Gill Sans-SemiBold", Helvetica;
+  font-weight: 600;
+  color: var(--collection-1-text);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .frame-wrapper {
+  width: 451px;
+  height: 115px;
+  top: 944px;
+  left: 49px;
+  background-color: #d8d7fa;
+  position: absolute;
+  border-radius: var(--collection-1-rounded);
+  overflow: hidden;
+}
+
+.about .frame-4 {
+  display: flex;
+  flex-direction: column;
+  width: 391px;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  top: 29px;
+  left: 30px;
+}
+
+.about .text-wrapper-10 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1.00px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #746685;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.about .vector-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 1px;
+  object-fit: cover;
+}
+
+.about .LINKS {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.about .div-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--collection-1-text);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-11 {
+  font-family: "Inter", Helvetica;
+  color: #cbabf1;
+  font-size: 15px;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.about .text-wrapper-12 {
+  font-family: "Gill Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  text-decoration: underline;
+}
+
+b {
+  font-weight: bolder;
+}
